@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio | Kevin Ramos</title>
+    <meta
+      name="description"
+      content="Portfolio for Kevin Pierce Chan Ramos—robotics-focused Technical Solution Specialist and full-stack developer based in Las Vegas, NV."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="theme-dark">
+    <header class="site-header">
+      <div class="brand">
+        <a href="#top" class="brand-mark" aria-label="Navigate to top of page">KR</a>
+        <span class="brand-name">Kevin Ramos</span>
+      </div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="visually-hidden">Toggle navigation</span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="projects.html">Projects</a>
+        <a href="#contact">Contact</a>
+        <button class="theme-toggle btn-pill" type="button" aria-label="Toggle theme">
+          <span class="theme-toggle-icon" aria-hidden="true">☀️</span>
+          <span class="visually-hidden">Switch theme</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section id="about" class="hero section">
+        <div class="hero-intro">
+          <h1 class="hero-title">Kevin Pierce Chan Ramos</h1>
+          <p class="hero-subtitle">
+            I’m a technical solution specialist in Las Vegas. I keep service robots talking to the right systems and
+            build the software our operators lean on. My sweet spot is smoothing the handoff between hardware and the
+            web tools teams use every day.
+          </p>
+          <div class="hero-links">
+            <a href="documents/cover-letter.pdf" class="hero-link" target="_blank" rel="noopener"
+              >cover letter / resume</a
+            >
+            <a href="https://github.com/Kemoshu" class="hero-link" target="_blank" rel="noopener">github</a>
+            <a href="https://www.linkedin.com/in/kpcr" class="hero-link" target="_blank" rel="noopener">linkedin</a>
+          </div>
+        </div>
+        <div class="hero-summary">
+          <article class="summary-card">
+            <h2>Profile</h2>
+            <p>
+              I split my time between deploying Richtech Robotics platforms in the field and building the internal
+              tooling that keeps them reliable. You’ll usually find me scripting diagnostics in Python or C++,
+              tightening up wireless and network configs, and writing docs teammates can actually follow.
+            </p>
+            <p>
+              I earned my B.S. in Computer Science from UNLV in May 2025, diving deep into algorithms, compiler
+              construction, operating systems, and cloud computing—plenty of chances to match theory with real
+              deployments.
+            </p>
+          </article>
+          <article class="summary-card">
+            <h2>Recent highlights</h2>
+            <ul class="detail-list">
+              <li>
+                Rolling out Linux-based service robots, hardening connectivity, and automating calibration so hotel
+                and hospitality teams stay online.
+              </li>
+              <li>
+                Built Espresso Compiler in Java with JFlex/CUP, including the lexer, parser, and semantic checks for
+                a custom teaching language.
+              </li>
+              <li>
+                Led the EulogyQuest capstone with React, Express, Docker, and PostgreSQL—owning the API design,
+                ADRs, and CI checks that kept the team aligned.
+              </li>
+            </ul>
+            <p class="detail-footnote">Open to internships and new grad roles in software engineering and platform operations.</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-heading">
+          <span class="eyebrow">Skills</span>
+          <h2>Strengths that elevate robots, apps, and teams.</h2>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-item">
+            <h3>Robotics & Automation</h3>
+            <p>
+              Configure and maintain Linux-based service robots, automate diagnostics, and streamline calibration
+              workflows with Python, C++, and shell scripting to sustain 24/7 reliability.
+            </p>
+          </article>
+          <article class="skill-item">
+            <h3>Systems & Cloud Foundations</h3>
+            <p>
+              Apply Git, Docker, Nmap, and AWS services for debugging, containerized testing, and secure deployment
+              pipelines; comfortable moving between CLI tooling and automation scripts.
+            </p>
+          </article>
+          <article class="skill-item">
+            <h3>Full-Stack Delivery</h3>
+            <p>
+              Build responsive React and Next.js experiences backed by Node/Express APIs, PostgreSQL, and GitHub
+              integrations while measuring success via analytics and UX feedback loops.
+            </p>
+          </article>
+          <article class="skill-item">
+            <h3>Developer Enablement</h3>
+            <p>
+              Document workflows, craft ADRs, and coach teammates through CI/CD adoption—translating complex systems
+              into actionable guides for engineers and operators alike.
+            </p>
+          </article>
+        </div>
+        <ul class="skill-tags" aria-label="Core technologies and languages">
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>React</li>
+          <li>Next.js</li>
+          <li>HTML &amp; CSS</li>
+          <li>Python</li>
+          <li>C++</li>
+          <li>Java</li>
+          <li>SQL</li>
+          <li>Docker</li>
+          <li>Git/GitHub</li>
+          <li>AWS</li>
+          <li>Shell scripting</li>
+          <li>JFlex &amp; Java CUP</li>
+        </ul>
+      </section>
+
+      <section id="experience" class="section section-alt">
+        <div class="section-heading">
+          <span class="eyebrow">Experience</span>
+          <h2>Hands-on work keeping robots and apps humming.</h2>
+          <p>
+            I’ve lived in both the lab and the lobby—standing up Richtech Robotics fleets, automating diagnostics,
+            and tightening deployment playbooks. Here’s a snapshot of my current role.
+          </p>
+        </div>
+        <div class="experience-list">
+          <article class="experience-item">
+            <div class="experience-header">
+              <h3 class="experience-role">Technical Solution Specialist · Richtech Robotics</h3>
+              <span class="experience-meta">Las Vegas, NV · October 2025 – Present</span>
+            </div>
+            <ul class="experience-points">
+              <li>Install and fine-tune Linux-based service robots to keep communication stable around the clock.</li>
+              <li>Automate diagnostics, logging, and calibration checks with Python, C++, and shell scripts.</li>
+              <li>Lean on Git, Docker, and Nmap for debugging, secure remote access, and containerized testing.</li>
+              <li>Document deployment workflows so operators and engineers can resolve issues without guesswork.</li>
+            </ul>
+          </article>
+        </div>
+        <a class="btn-outline" href="experience.html">See full experience history</a>
+      </section>
+
+      <section id="certifications" class="section">
+        <div class="section-heading">
+          <span class="eyebrow">Certifications</span>
+          <h2>Validated learning that supports hands-on delivery.</h2>
+          <p>
+            These programs reinforce my day-to-day work pairing automation, cloud infrastructure, and user-focused
+            software. Explore the full collection for course notes and upcoming additions.
+          </p>
+        </div>
+        <div class="cert-grid">
+          <article class="cert-card">
+            <h3>IBM Full-Stack Developer Professional Certificate</h3>
+            <p>Coursera · Awarded October 2025 · Project work in cloud deployment, microservices, and React UIs.</p>
+          </article>
+          <article class="cert-card">
+            <h3>AWS Certified Cloud Practitioner</h3>
+            <p>AWS · In progress · Deepening coverage of foundational AWS services, security, and cost management.</p>
+          </article>
+        </div>
+        <a class="btn-outline" href="certifications.html">View all certifications</a>
+      </section>
+
+      <section id="projects" class="section section-alt">
+        <div class="section-heading">
+          <span class="eyebrow">Projects</span>
+          <h2>Latest GitHub repositories.</h2>
+          <p>
+            A snapshot of the five most recently updated repositories.
+            Visit the dedicated <a href="projects.html">projects page</a> for write-ups on compilers, capstones, and
+            analytics dashboards.
+          </p>
+        </div>
+        <div
+          class="repo-list"
+          role="list"
+          aria-live="polite"
+          data-repo-list
+          data-repo-limit="5"
+          data-repo-sort="updated"
+        ></div>
+        <div class="repo-empty" data-repo-empty>
+          <p>Repositories will appear here once the GitHub API responds.</p>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="section-heading">
+          <span class="eyebrow">Contact</span>
+          <h2>Let's collaborate.</h2>
+          <p>
+            Share details about robotics rollouts, platform engineering roles, or community collaborations. I reply
+            within two business days or you can reach me directly at
+            <a href="mailto:ramosk.dev@gmail.com">ramosk.dev@gmail.com</a>.
+          </p>
+        </div>
+        <form class="contact-form" novalidate>
+          <div class="form-grid">
+            <label class="form-field">
+              <span>Name</span>
+              <input type="text" name="name" placeholder="Jane Doe" required />
+            </label>
+            <label class="form-field">
+              <span>Email</span>
+              <input type="email" name="email" placeholder="jane@example.com" required />
+            </label>
+            <label class="form-field">
+              <span>Phone</span>
+              <input type="tel" name="phone" placeholder="(555) 555-0123" />
+            </label>
+            <label class="form-field form-field-full">
+              <span>How can I help?</span>
+              <textarea
+                name="message"
+                rows="4"
+                placeholder="I'd love to collaborate on..."
+                required
+              ></textarea>
+            </label>
+          </div>
+          <button type="submit" class="btn-primary">Send message</button>
+          <p class="form-feedback" role="status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>&copy; <span id="year"></span> Kevin Ramos.</p>
+        <div class="footer-links">
+          <a href="experience.html">Experience</a>
+          <a href="projects.html">Projects</a>
+          <a href="certifications.html">Certifications</a>
+          <a href="https://github.com/Kemoshu" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/kpcr" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:ramosk.dev@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

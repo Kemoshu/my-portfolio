@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects | Kevin Ramos</title>
+    <meta
+      name="description"
+      content="Explore Kevin Pierce Chan Ramos' full library of GitHub projects spanning robotics automation, compiler tooling, and full-stack experimentation."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="theme-dark">
+    <header class="site-header">
+      <div class="brand">
+        <a href="index.html#top" class="brand-mark" aria-label="Navigate to home page">KR</a>
+        <span class="brand-name">Kevin Ramos</span>
+      </div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="visually-hidden">Toggle navigation</span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="#projects" aria-current="page">Projects</a>
+        <a href="index.html#contact">Contact</a>
+        <button class="theme-toggle btn-pill" type="button" aria-label="Toggle theme">
+          <span class="theme-toggle-icon" aria-hidden="true">☀️</span>
+          <span class="visually-hidden">Switch theme</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section id="projects" class="section section-alt">
+        <div class="section-heading">
+          <span class="eyebrow">Projects</span>
+          <h1>Every public GitHub repository in one place.</h1>
+          <p>
+            Pulling live from
+            <a href="https://github.com/Kemoshu" target="_blank" rel="noopener">github.com/Kemoshu</a> — from the
+            Espresso compiler toolchain to EulogyQuest's containerized capstone stack and GitHub Profile Analyzer.
+            Filter, explore, and star the repos that resonate.
+          </p>
+        </div>
+        <div
+          class="repo-list"
+          role="list"
+          aria-live="polite"
+          data-repo-list
+          data-repo-limit="100"
+          data-repo-sort="updated"
+          data-include-forks="true"
+        ></div>
+        <div class="repo-empty" data-repo-empty>
+          <p>Repositories will load in just a moment.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>&copy; <span id="year"></span> Kevin Ramos. Built to bridge robotics reliability with human-centered UX.</p>
+        <div class="footer-links">
+          <a href="projects.html" aria-current="page">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="certifications.html">Certifications</a>
+          <a href="https://github.com/Kemoshu" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/kpcr" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:ramosk.dev@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>

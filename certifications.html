@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certifications | Kevin Ramos</title>
+    <meta
+      name="description"
+      content="Certifications earned and in progress by Kevin Pierce Chan Ramos, covering full-stack development, automation, and cloud fundamentals."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="theme-dark">
+    <header class="site-header">
+      <div class="brand">
+        <a href="index.html#top" class="brand-mark" aria-label="Navigate to home page">KR</a>
+        <span class="brand-name">Kevin Ramos</span>
+      </div>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="visually-hidden">Toggle navigation</span>
+      </button>
+      <nav id="site-nav" class="site-nav">
+        <a href="index.html#about">About</a>
+        <a href="index.html#skills">Skills</a>
+        <a href="experience.html">Experience</a>
+        <a href="#certifications" aria-current="page">Certifications</a>
+        <a href="projects.html">Projects</a>
+        <a href="index.html#contact">Contact</a>
+        <button class="theme-toggle btn-pill" type="button" aria-label="Toggle theme">
+          <span class="theme-toggle-icon" aria-hidden="true">☀️</span>
+          <span class="visually-hidden">Switch theme</span>
+        </button>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section id="certifications" class="section section-alt">
+        <div class="section-heading">
+          <span class="eyebrow">Certifications</span>
+          <h1>Continuous learning that backs reliable delivery.</h1>
+          <p>
+            Each program below reinforces the automation, cloud, and full-stack skills I bring to robotics support
+            and software engineering teams. New achievements will appear here as I expand my toolkit.
+          </p>
+        </div>
+        <div class="cert-grid">
+          <article class="cert-card">
+            <h3>IBM Full-Stack Developer Professional Certificate</h3>
+            <p>Coursera · Earned October 2025</p>
+            <p>
+              Completed 12-course pathway covering responsive front-end, Node/Express services, CI/CD, cloud
+              deployment, and developer tooling for production-grade web apps.
+            </p>
+          </article>
+          <article class="cert-card">
+            <h3>AWS Certified Cloud Practitioner</h3>
+            <p>Amazon Web Services · In progress</p>
+            <p>
+              Studying for certification with a focus on security, cost governance, and core services (EC2, S3,
+              IAM, Lambda) to complement automation work in the field.
+            </p>
+          </article>
+          <article class="cert-card cert-card--upcoming">
+            <h3>Upcoming Focus Areas</h3>
+            <p>Planned</p>
+            <p>
+              Targeting Linux Foundation automation badges and an AWS associate certification to deepen my impact on
+              infrastructure-heavy projects and robotics deployments.
+            </p>
+          </article>
+        </div>
+        <a class="btn-outline" href="mailto:ramosk.dev@gmail.com">Request verification or transcripts</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-content">
+        <p>&copy; <span id="year"></span> Kevin Ramos. Built to bridge robotics reliability with human-centered UX.</p>
+        <div class="footer-links">
+          <a href="projects.html">Projects</a>
+          <a href="experience.html">Experience</a>
+          <a href="certifications.html" aria-current="page">Certifications</a>
+          <a href="https://github.com/Kemoshu" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/kpcr" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="mailto:ramosk.dev@gmail.com">Email</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
