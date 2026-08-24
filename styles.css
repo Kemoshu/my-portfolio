@@ -623,6 +623,14 @@ a:hover .arrow {
   font-size: 0.92rem;
 }
 
+.cert-link {
+  justify-self: start;
+  margin-top: 0.15rem;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--accent);
+}
+
 /* ---------- contact ---------- */
 
 .contact {
