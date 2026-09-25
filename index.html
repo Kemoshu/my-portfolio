@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kevin Pierce Ramos | Software Engineer</title>
+    <title>Kevin Pierce Ramos | Software Engineering &amp; Systems</title>
     <meta
       name="description"
-      content="Kevin Pierce Ramos is a software engineer in Las Vegas working on robotics: C++ and Python motion control, Kotlin operator apps, and Linux hardware integration. UNLV computer science, class of 2025. Georgia Tech master's starting Spring 2027."
+      content="Kevin Pierce Ramos works across software engineering and systems: C++ and Python robotics, backend services, automation, cloud infrastructure, and Linux hardware integration. UNLV computer science, class of 2025. Georgia Tech master's starting Spring 2027."
     />
-    <meta property="og:title" content="Kevin Pierce Ramos | Software Engineer" />
+    <meta property="og:title" content="Kevin Pierce Ramos | Software Engineering &amp; Systems" />
     <meta
       property="og:description"
-      content="Software engineer working on dual-arm robots: C++, Python, Kotlin, and embedded Linux. Georgia Tech master's, Spring 2027."
+      content="Software engineering and systems work across dual-arm robotics, backend services, C++, Python, Kotlin, and embedded Linux. Georgia Tech master's, Spring 2027."
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://kemoshu.github.io/my-portfolio/" />
@@ -82,7 +82,7 @@
 
     <main id="main">
       <section id="top" class="hero container">
-        <p class="overline">Software Engineer · Las Vegas, NV</p>
+        <p class="overline">Software Engineering &amp; Systems · Las Vegas, NV</p>
         <h1>Kevin Pierce&nbsp;Ramos</h1>
         <p class="hero-lead">
           I write the software behind dual-arm robots at
@@ -154,9 +154,36 @@
               >
             </h3>
             <p>
-              REST API with time-series analytics, filtered queries, and pagination. Runs in Docker on EC2
-              with S3 storage, Alembic migrations, and pytest coverage. Terraform stands up the AWS side,
-              and a GitHub Actions pipeline tests, builds, and deploys on every push.
+              Backend analytics service built with FastAPI and PostgreSQL, supporting event ingestion,
+              filtering, pagination, time-series aggregation, Alembic migrations, and PostgreSQL-backed
+              integration tests. Includes Docker, Terraform, Helm, GitHub Actions, Prometheus/Grafana
+              observability, and infrastructure defined for an AWS EKS/RDS deployment.
+            </p>
+          </article>
+          <article class="project-card featured reveal">
+            <div class="project-tags">C++ · Linux · CSV parsing · JSON</div>
+            <h3>
+              <a href="https://github.com/Kemoshu/Logstat" target="_blank" rel="noopener"
+                >Logstat<span class="arrow" aria-hidden="true">&#8599;</span></a
+              >
+            </h3>
+            <p>
+              C++ command-line tool that streams HTTP-style CSV logs from disk and aggregates endpoint
+              metrics, HTTP status distributions, and configurable latency percentiles, with text and JSON
+              reporting.
+            </p>
+          </article>
+          <article class="project-card featured reveal">
+            <div class="project-tags">Raspberry Pi 5 · Python · MQTT/mTLS · AWS IoT Core · DynamoDB · Lambda · Terraform</div>
+            <h3>
+              <a href="https://github.com/Kemoshu/pi-telemetry" target="_blank" rel="noopener"
+                >Pi Telemetry<span class="arrow" aria-hidden="true">&#8599;</span></a
+              >
+            </h3>
+            <p>
+              Raspberry Pi 5 telemetry pipeline that publishes real system metrics over MQTT/mTLS to AWS
+              IoT Core, routes events through DynamoDB and Lambda for rolling aggregation and anomaly
+              detection, with monitoring through CloudWatch and infrastructure defined in Terraform.
             </p>
           </article>
           <article class="project-card featured reveal">
@@ -167,18 +194,6 @@
               firewall rules, Pi-hole DNS filtering, hostapd hotspot, and Tailscale mesh access. Bash
               provisioning scripts and systemd health checks keep it running headless, so it recovers on
               its own after power loss or a bad network.
-            </p>
-          </article>
-          <article class="project-card reveal">
-            <div class="project-tags">C++17 · CMake · Linux</div>
-            <h3>
-              <a href="https://github.com/Kemoshu/Logstat" target="_blank" rel="noopener"
-                >Logstat<span class="arrow" aria-hidden="true">&#8599;</span></a
-              >
-            </h3>
-            <p>
-              Command-line tool that streams large log files and computes per-service latency percentiles
-              and error-rate breakdowns in real time, printing results as JSON.
             </p>
           </article>
           <article class="project-card reveal">
@@ -215,7 +230,7 @@
             <span class="skill-label">Languages</span>
             <div class="skill-tags">
               <span>Python</span><span>C++</span><span>Kotlin</span><span>Java</span
-              ><span>JavaScript</span><span>Go</span><span>Bash</span><span>SQL</span>
+              ><span>JavaScript</span><span>Bash</span><span>SQL</span>
             </div>
           </div>
           <div class="skill-row reveal">
@@ -246,13 +261,13 @@
             <div class="skill-tags">
               <span>AWS</span><span>Lambda</span><span>CloudWatch</span><span>Docker</span
               ><span>Docker Compose</span><span>Kubernetes</span><span>Terraform</span
-              ><span>GitHub Actions</span><span>CI/CD</span>
+              ><span>GitHub Actions</span><span>Prometheus</span><span>Grafana</span><span>CI/CD</span>
             </div>
           </div>
           <div class="skill-row reveal">
             <span class="skill-label">Systems + Networking</span>
             <div class="skill-tags">
-              <span>Linux</span><span>systemd</span><span>CMake</span><span>GDB</span
+              <span>Linux</span><span>systemd</span><span>GDB</span
               ><span>TCP/IP</span><span>DNS</span><span>SSH</span><span>WireGuard/IPsec</span
               ><span>iptables/UFW</span>
             </div>
@@ -303,11 +318,6 @@
             <span class="cert-status done">Completed · Oct 2025</span>
             <h3>IBM Full-Stack Developer Professional Certificate</h3>
             <p>Twelve-course track through Coursera: front end, Node/Express, CI/CD, and cloud deployment.</p>
-          </article>
-          <article class="cert-card planned reveal">
-            <span class="cert-status">Planned</span>
-            <h3>AWS Solutions Architect Associate</h3>
-            <p>Next on the list now that the Cloud Practitioner is done.</p>
           </article>
         </div>
       </section>
